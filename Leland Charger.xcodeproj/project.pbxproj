@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A503D9752C7C2BD5005EF8B6 /* Charger Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = A503D9742C7C2BD5005EF8B6 /* Charger Account.swift */; };
+		A503D9772C7C2BD5005EF8B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A503D9762C7C2BD5005EF8B6 /* ContentView.swift */; };
+		A503D9792C7C2BD8005EF8B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A503D9782C7C2BD8005EF8B6 /* Assets.xcassets */; };
+		A503D97C2C7C2BD8005EF8B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A503D97B2C7C2BD8005EF8B6 /* Preview Assets.xcassets */; };
+		A503D9862C7C2BDB005EF8B6 /* OnboardingFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A503D9852C7C2BDB005EF8B6 /* OnboardingFlowTests.swift */; };
+		A503D9902C7C2BDB005EF8B6 /* OnboardingFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A503D98F2C7C2BDB005EF8B6 /* OnboardingFlowUITests.swift */; };
+		A503D9922C7C2BDB005EF8B6 /* OnboardingFlowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A503D9912C7C2BDB005EF8B6 /* OnboardingFlowUITestsLaunchTests.swift */; };
+		A503D9A82C7E866A005EF8B6 /* may24.swift in Sources */ = {isa = PBXBuildFile; fileRef = A503D9A62C7E866A005EF8B6 /* may24.swift */; };
+		A503D9A92C7E866A005EF8B6 /* april24.swift in Sources */ = {isa = PBXBuildFile; fileRef = A503D9A72C7E866A005EF8B6 /* april24.swift */; };
+		A57143642C868E320024C552 /* december22.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57143632C868E320024C552 /* december22.swift */; };
+		A57143662C868ECD0024C552 /* november22.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57143652C868ECD0024C552 /* november22.swift */; };
+		A5B569462CD8004200E1801A /* february24.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B569452CD8004200E1801A /* february24.swift */; };
+		A5B569482CD800C900E1801A /* december23.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B569472CD800C900E1801A /* december23.swift */; };
+		A5B5694A2CD8013A00E1801A /* november23.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B569492CD8013A00E1801A /* november23.swift */; };
+		A5B5694C2CD801A000E1801A /* september23.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B5694B2CD801A000E1801A /* september23.swift */; };
+		A5C591D52C802C46007320E4 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C591D42C802C46007320E4 /* SideMenuView.swift */; };
+		A5C591D72C838B1F007320E4 /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C591D62C838B1F007320E4 /* SideMenuHeaderView.swift */; };
+		A5C591DB2C83CC83007320E4 /* SideMenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C591DA2C83CC83007320E4 /* SideMenuRowView.swift */; };
+		A5C591DD2C83D04E007320E4 /* SideMenuOptionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C591DC2C83D04E007320E4 /* SideMenuOptionsModel.swift */; };
+		A5D783E62D2A12F400AD5152 /* september-2023.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A5D783E52D2A12F300AD5152 /* september-2023.pdf */; };
+		A5D783E72D2A12F400AD5152 /* november-2022.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A5D783E32D2A12F300AD5152 /* november-2022.pdf */; };
+		A5D783E82D2A12F400AD5152 /* december-2023.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A5D783E02D2A12F300AD5152 /* december-2023.pdf */; };
+		A5D783E92D2A12F400AD5152 /* december-2022.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A5D783DF2D2A12F300AD5152 /* december-2022.pdf */; };
+		A5D783EA2D2A12F400AD5152 /* november-2023.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A5D783E42D2A12F300AD5152 /* november-2023.pdf */; };
+		A5D783ED2D2A12F400AD5152 /* february-2024.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A5D783E12D2A12F300AD5152 /* february-2024.pdf */; };
+		A5D783F02D2A137000AD5152 /* april-2024.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A5D783EE2D2A137000AD5152 /* april-2024.pdf */; };
+		A5D783F12D2A137000AD5152 /* may-2024.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A5D783EF2D2A137000AD5152 /* may-2024.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A503D9822C7C2BDB005EF8B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A503D9692C7C2BD5005EF8B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A503D9702C7C2BD5005EF8B6;
+			remoteInfo = OnboardingFlow;
+		};
+		A503D98C2C7C2BDB005EF8B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A503D9692C7C2BD5005EF8B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A503D9702C7C2BD5005EF8B6;
+			remoteInfo = OnboardingFlow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A503D9712C7C2BD5005EF8B6 /* Charger Account.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Charger Account.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A503D9742C7C2BD5005EF8B6 /* Charger Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Charger Account.swift"; sourceTree = "<group>"; };
+		A503D9762C7C2BD5005EF8B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A503D9782C7C2BD8005EF8B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A503D97B2C7C2BD8005EF8B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A503D9812C7C2BDB005EF8B6 /* Leland ChargerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Leland ChargerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A503D9852C7C2BDB005EF8B6 /* OnboardingFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowTests.swift; sourceTree = "<group>"; };
+		A503D98B2C7C2BDB005EF8B6 /* Leland ChargerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Leland ChargerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A503D98F2C7C2BDB005EF8B6 /* OnboardingFlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowUITests.swift; sourceTree = "<group>"; };
+		A503D9912C7C2BDB005EF8B6 /* OnboardingFlowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A503D9A62C7E866A005EF8B6 /* may24.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = may24.swift; path = ../may24.swift; sourceTree = "<group>"; };
+		A503D9A72C7E866A005EF8B6 /* april24.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = april24.swift; path = ../april24.swift; sourceTree = "<group>"; };
+		A503D9B42C7F49DC005EF8B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A57143632C868E320024C552 /* december22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = december22.swift; sourceTree = "<group>"; };
+		A57143652C868ECD0024C552 /* november22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = november22.swift; sourceTree = "<group>"; };
+		A5B569452CD8004200E1801A /* february24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = february24.swift; sourceTree = "<group>"; };
+		A5B569472CD800C900E1801A /* december23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = december23.swift; sourceTree = "<group>"; };
+		A5B569492CD8013A00E1801A /* november23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = november23.swift; sourceTree = "<group>"; };
+		A5B5694B2CD801A000E1801A /* september23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = september23.swift; sourceTree = "<group>"; };
+		A5C591D42C802C46007320E4 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		A5C591D62C838B1F007320E4 /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
+		A5C591DA2C83CC83007320E4 /* SideMenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuRowView.swift; sourceTree = "<group>"; };
+		A5C591DC2C83D04E007320E4 /* SideMenuOptionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionsModel.swift; sourceTree = "<group>"; };
+		A5D783DF2D2A12F300AD5152 /* december-2022.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "december-2022.pdf"; sourceTree = "<group>"; };
+		A5D783E02D2A12F300AD5152 /* december-2023.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "december-2023.pdf"; sourceTree = "<group>"; };
+		A5D783E12D2A12F300AD5152 /* february-2024.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "february-2024.pdf"; sourceTree = "<group>"; };
+		A5D783E32D2A12F300AD5152 /* november-2022.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "november-2022.pdf"; sourceTree = "<group>"; };
+		A5D783E42D2A12F300AD5152 /* november-2023.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "november-2023.pdf"; sourceTree = "<group>"; };
+		A5D783E52D2A12F300AD5152 /* september-2023.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "september-2023.pdf"; sourceTree = "<group>"; };
+		A5D783EE2D2A137000AD5152 /* april-2024.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "april-2024.pdf"; sourceTree = "<group>"; };
+		A5D783EF2D2A137000AD5152 /* may-2024.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "may-2024.pdf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A503D96E2C7C2BD5005EF8B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A503D97E2C7C2BDB005EF8B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A503D9882C7C2BDB005EF8B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A503D9682C7C2BD5005EF8B6 = {
+			isa = PBXGroup;
+			children = (
+				A503D9732C7C2BD5005EF8B6 /* OnboardingFlow */,
+				A503D9842C7C2BDB005EF8B6 /* OnboardingFlowTests */,
+				A503D98E2C7C2BDB005EF8B6 /* OnboardingFlowUITests */,
+				A503D9722C7C2BD5005EF8B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A503D9722C7C2BD5005EF8B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A503D9712C7C2BD5005EF8B6 /* Charger Account.app */,
+				A503D9812C7C2BDB005EF8B6 /* Leland ChargerTests.xctest */,
+				A503D98B2C7C2BDB005EF8B6 /* Leland ChargerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A503D9732C7C2BD5005EF8B6 /* OnboardingFlow */ = {
+			isa = PBXGroup;
+			children = (
+				A503D9742C7C2BD5005EF8B6 /* Charger Account.swift */,
+				A503D9762C7C2BD5005EF8B6 /* ContentView.swift */,
+				A503D9B42C7F49DC005EF8B6 /* Info.plist */,
+				A5C591E32C84A1AA007320E4 /* Sidebar */,
+				A5C591E02C84A107007320E4 /* News Swift Pages */,
+				A5C591E62C84A1E8007320E4 /* NewspaperPDFs */,
+				A503D9782C7C2BD8005EF8B6 /* Assets.xcassets */,
+				A503D97A2C7C2BD8005EF8B6 /* Preview Content */,
+			);
+			path = OnboardingFlow;
+			sourceTree = "<group>";
+		};
+		A503D97A2C7C2BD8005EF8B6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A503D97B2C7C2BD8005EF8B6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A503D9842C7C2BDB005EF8B6 /* OnboardingFlowTests */ = {
+			isa = PBXGroup;
+			children = (
+				A503D9852C7C2BDB005EF8B6 /* OnboardingFlowTests.swift */,
+				A5C591DC2C83D04E007320E4 /* SideMenuOptionsModel.swift */,
+			);
+			path = OnboardingFlowTests;
+			sourceTree = "<group>";
+		};
+		A503D98E2C7C2BDB005EF8B6 /* OnboardingFlowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A503D98F2C7C2BDB005EF8B6 /* OnboardingFlowUITests.swift */,
+				A503D9912C7C2BDB005EF8B6 /* OnboardingFlowUITestsLaunchTests.swift */,
+			);
+			path = OnboardingFlowUITests;
+			sourceTree = "<group>";
+		};
+		A5C591E02C84A107007320E4 /* News Swift Pages */ = {
+			isa = PBXGroup;
+			children = (
+				A503D9A62C7E866A005EF8B6 /* may24.swift */,
+				A57143632C868E320024C552 /* december22.swift */,
+				A57143652C868ECD0024C552 /* november22.swift */,
+				A503D9A72C7E866A005EF8B6 /* april24.swift */,
+				A5B569452CD8004200E1801A /* february24.swift */,
+				A5B569472CD800C900E1801A /* december23.swift */,
+				A5B5694B2CD801A000E1801A /* september23.swift */,
+				A5B569492CD8013A00E1801A /* november23.swift */,
+			);
+			path = "News Swift Pages";
+			sourceTree = "<group>";
+		};
+		A5C591E32C84A1AA007320E4 /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				A5C591DA2C83CC83007320E4 /* SideMenuRowView.swift */,
+				A5C591D42C802C46007320E4 /* SideMenuView.swift */,
+				A5C591D62C838B1F007320E4 /* SideMenuHeaderView.swift */,
+			);
+			path = Sidebar;
+			sourceTree = "<group>";
+		};
+		A5C591E62C84A1E8007320E4 /* NewspaperPDFs */ = {
+			isa = PBXGroup;
+			children = (
+				A5D783DF2D2A12F300AD5152 /* december-2022.pdf */,
+				A5D783E02D2A12F300AD5152 /* december-2023.pdf */,
+				A5D783E12D2A12F300AD5152 /* february-2024.pdf */,
+				A5D783E32D2A12F300AD5152 /* november-2022.pdf */,
+				A5D783E42D2A12F300AD5152 /* november-2023.pdf */,
+				A5D783E52D2A12F300AD5152 /* september-2023.pdf */,
+				A5D783EE2D2A137000AD5152 /* april-2024.pdf */,
+				A5D783EF2D2A137000AD5152 /* may-2024.pdf */,
+			);
+			path = NewspaperPDFs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A503D9702C7C2BD5005EF8B6 /* Charger Account */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A503D9952C7C2BDB005EF8B6 /* Build configuration list for PBXNativeTarget "Charger Account" */;
+			buildPhases = (
+				A503D96D2C7C2BD5005EF8B6 /* Sources */,
+				A503D96E2C7C2BD5005EF8B6 /* Frameworks */,
+				A503D96F2C7C2BD5005EF8B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Charger Account";
+			productName = OnboardingFlow;
+			productReference = A503D9712C7C2BD5005EF8B6 /* Charger Account.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A503D9802C7C2BDB005EF8B6 /* Leland ChargerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A503D9982C7C2BDB005EF8B6 /* Build configuration list for PBXNativeTarget "Leland ChargerTests" */;
+			buildPhases = (
+				A503D97D2C7C2BDB005EF8B6 /* Sources */,
+				A503D97E2C7C2BDB005EF8B6 /* Frameworks */,
+				A503D97F2C7C2BDB005EF8B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A503D9832C7C2BDB005EF8B6 /* PBXTargetDependency */,
+			);
+			name = "Leland ChargerTests";
+			productName = OnboardingFlowTests;
+			productReference = A503D9812C7C2BDB005EF8B6 /* Leland ChargerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A503D98A2C7C2BDB005EF8B6 /* Leland ChargerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A503D99B2C7C2BDB005EF8B6 /* Build configuration list for PBXNativeTarget "Leland ChargerUITests" */;
+			buildPhases = (
+				A503D9872C7C2BDB005EF8B6 /* Sources */,
+				A503D9882C7C2BDB005EF8B6 /* Frameworks */,
+				A503D9892C7C2BDB005EF8B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A503D98D2C7C2BDB005EF8B6 /* PBXTargetDependency */,
+			);
+			name = "Leland ChargerUITests";
+			productName = OnboardingFlowUITests;
+			productReference = A503D98B2C7C2BDB005EF8B6 /* Leland ChargerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A503D9692C7C2BD5005EF8B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A503D9702C7C2BD5005EF8B6 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					A503D9802C7C2BDB005EF8B6 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A503D9702C7C2BD5005EF8B6;
+					};
+					A503D98A2C7C2BDB005EF8B6 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A503D9702C7C2BD5005EF8B6;
+					};
+				};
+			};
+			buildConfigurationList = A503D96C2C7C2BD5005EF8B6 /* Build configuration list for PBXProject "Leland Charger" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A503D9682C7C2BD5005EF8B6;
+			productRefGroup = A503D9722C7C2BD5005EF8B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A503D9702C7C2BD5005EF8B6 /* Charger Account */,
+				A503D9802C7C2BDB005EF8B6 /* Leland ChargerTests */,
+				A503D98A2C7C2BDB005EF8B6 /* Leland ChargerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A503D96F2C7C2BD5005EF8B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A503D97C2C7C2BD8005EF8B6 /* Preview Assets.xcassets in Resources */,
+				A5D783F02D2A137000AD5152 /* april-2024.pdf in Resources */,
+				A5D783F12D2A137000AD5152 /* may-2024.pdf in Resources */,
+				A5D783E62D2A12F400AD5152 /* september-2023.pdf in Resources */,
+				A5D783E72D2A12F400AD5152 /* november-2022.pdf in Resources */,
+				A5D783E82D2A12F400AD5152 /* december-2023.pdf in Resources */,
+				A5D783E92D2A12F400AD5152 /* december-2022.pdf in Resources */,
+				A5D783EA2D2A12F400AD5152 /* november-2023.pdf in Resources */,
+				A5D783ED2D2A12F400AD5152 /* february-2024.pdf in Resources */,
+				A503D9792C7C2BD8005EF8B6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A503D97F2C7C2BDB005EF8B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A503D9892C7C2BDB005EF8B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A503D96D2C7C2BD5005EF8B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A503D9A82C7E866A005EF8B6 /* may24.swift in Sources */,
+				A5C591D52C802C46007320E4 /* SideMenuView.swift in Sources */,
+				A5B569462CD8004200E1801A /* february24.swift in Sources */,
+				A5C591DD2C83D04E007320E4 /* SideMenuOptionsModel.swift in Sources */,
+				A57143642C868E320024C552 /* december22.swift in Sources */,
+				A5B5694C2CD801A000E1801A /* september23.swift in Sources */,
+				A5C591D72C838B1F007320E4 /* SideMenuHeaderView.swift in Sources */,
+				A5B5694A2CD8013A00E1801A /* november23.swift in Sources */,
+				A503D9772C7C2BD5005EF8B6 /* ContentView.swift in Sources */,
+				A5C591DB2C83CC83007320E4 /* SideMenuRowView.swift in Sources */,
+				A57143662C868ECD0024C552 /* november22.swift in Sources */,
+				A5B569482CD800C900E1801A /* december23.swift in Sources */,
+				A503D9752C7C2BD5005EF8B6 /* Charger Account.swift in Sources */,
+				A503D9A92C7E866A005EF8B6 /* april24.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A503D97D2C7C2BDB005EF8B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A503D9862C7C2BDB005EF8B6 /* OnboardingFlowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A503D9872C7C2BDB005EF8B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A503D9902C7C2BDB005EF8B6 /* OnboardingFlowUITests.swift in Sources */,
+				A503D9922C7C2BDB005EF8B6 /* OnboardingFlowUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A503D9832C7C2BDB005EF8B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A503D9702C7C2BD5005EF8B6 /* Charger Account */;
+			targetProxy = A503D9822C7C2BDB005EF8B6 /* PBXContainerItemProxy */;
+		};
+		A503D98D2C7C2BDB005EF8B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A503D9702C7C2BD5005EF8B6 /* Charger Account */;
+			targetProxy = A503D98C2C7C2BDB005EF8B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A503D9932C7C2BDB005EF8B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A503D9942C7C2BDB005EF8B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A503D9962C7C2BDB005EF8B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OnboardingFlow/Preview Content\"";
+				DEVELOPMENT_TEAM = 38D59X989T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OnboardingFlow/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.charger.account;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A503D9972C7C2BDB005EF8B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OnboardingFlow/Preview Content\"";
+				DEVELOPMENT_TEAM = 38D59X989T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OnboardingFlow/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.charger.account;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A503D9992C7C2BDB005EF8B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38D59X989T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.OnboardingFlowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leland Charger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Leland Charger";
+			};
+			name = Debug;
+		};
+		A503D99A2C7C2BDB005EF8B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38D59X989T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.OnboardingFlowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leland Charger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Leland Charger";
+			};
+			name = Release;
+		};
+		A503D99C2C7C2BDB005EF8B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38D59X989T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.OnboardingFlowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OnboardingFlow;
+			};
+			name = Debug;
+		};
+		A503D99D2C7C2BDB005EF8B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38D59X989T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.OnboardingFlowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OnboardingFlow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A503D96C2C7C2BD5005EF8B6 /* Build configuration list for PBXProject "Leland Charger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A503D9932C7C2BDB005EF8B6 /* Debug */,
+				A503D9942C7C2BDB005EF8B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A503D9952C7C2BDB005EF8B6 /* Build configuration list for PBXNativeTarget "Charger Account" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A503D9962C7C2BDB005EF8B6 /* Debug */,
+				A503D9972C7C2BDB005EF8B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A503D9982C7C2BDB005EF8B6 /* Build configuration list for PBXNativeTarget "Leland ChargerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A503D9992C7C2BDB005EF8B6 /* Debug */,
+				A503D99A2C7C2BDB005EF8B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A503D99B2C7C2BDB005EF8B6 /* Build configuration list for PBXNativeTarget "Leland ChargerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A503D99C2C7C2BDB005EF8B6 /* Debug */,
+				A503D99D2C7C2BDB005EF8B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A503D9692C7C2BD5005EF8B6 /* Project object */;
+}
