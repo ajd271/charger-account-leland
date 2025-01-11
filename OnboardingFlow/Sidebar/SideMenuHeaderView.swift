@@ -14,12 +14,12 @@ struct SideMenuHeaderView: View {
             VStack(alignment: .leading, spacing: 6){
                 Text("Charger Account")
                     .font(.subheadline)
-                Text("lelandchargeraccount@")
+                Text("lelandchargeraccount@gmail.com")
                     .font(.footnote)
-                    .tint(.gray)
-                Text("gmail.com")
-                    .font(.footnote)
-                    .tint(.gray)
+                    .tint(.black)
+                    .frame(width: 100, height: 150)
+                    .truncationMode(.tail)
+                
             }
 
         }

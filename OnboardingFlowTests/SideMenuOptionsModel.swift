@@ -52,7 +52,7 @@ enum SideMenuOptionsModel: Int, CaseIterable {
     var systemImageName: String {
         switch self {
         case .y2024:
-            return ""
+            return "calendar"
         case .may24:
             return "doc"
         case .april24:
@@ -60,7 +60,7 @@ enum SideMenuOptionsModel: Int, CaseIterable {
         case .february24:
             return "doc"
         case .y2023:
-            return ""
+            return "calendar"
         case .december23:
             return "doc"
         case .november23:
@@ -68,7 +68,7 @@ enum SideMenuOptionsModel: Int, CaseIterable {
         case .september23:
             return "doc"
         case .y2022:
-            return ""
+            return "calendar"
         case .december22:
             return "doc"
         case .november22:

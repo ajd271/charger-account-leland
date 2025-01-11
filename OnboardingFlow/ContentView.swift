@@ -26,8 +26,9 @@ struct ContentView: View {
                         .background(Gradient(colors: gradientColors))
                         .foregroundStyle(.white)
                         .padding()
-                        .tag(1)
+                        
                         .tag(0)
+                        .tag(1)
                     april24()
                         .background(Gradient(colors: gradientColors))
                         .foregroundStyle(.white)
@@ -42,8 +43,8 @@ struct ContentView: View {
                         .background(Gradient(colors: gradientColors))
                         .foregroundStyle(.white)
                         .padding()
-                        .tag(5)
                         .tag(4)
+                        .tag(5)
                     november23()
                         .background(Gradient(colors: gradientColors))
                         .foregroundStyle(.white)
@@ -57,9 +58,9 @@ struct ContentView: View {
                     december22()
                         .background(Gradient(colors: gradientColors))
                         .foregroundStyle(.white)
-                        .padding()
-                        .tag(9)
+                        .padding()                        
                         .tag(8)
+                        .tag(9)
                     november22()
                         .background(Gradient(colors: gradientColors))
                         .foregroundStyle(.white)
@@ -75,9 +76,10 @@ struct ContentView: View {
                 //navigationDestination(for: option)
             //})
             .onAppear { showMenu = false }
-            .navigationTitle("Charger Account")
+            .navigationTitle(showMenu ? "" : "Charger Account")
             .navigationBarTitleDisplayMode(.inline)
-            .toolbar(showMenu ? .hidden : .visible, for: .navigationBar)
+         //   .toolbar(showMenu ? .hidden : .visible, for: .navigationBar)
+            .toolbar(.visible, for: .navigationBar)
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
                     Button {
