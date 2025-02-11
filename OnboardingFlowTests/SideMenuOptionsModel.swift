@@ -10,7 +10,12 @@ import SwiftUI
 
 
 enum SideMenuOptionsModel: Int, CaseIterable {
+    case y2025
+    case february25
     case y2024
+    case december24
+    case november24
+    case september24
     case may24
     case april24
     case february24
@@ -24,8 +29,18 @@ enum SideMenuOptionsModel: Int, CaseIterable {
     
     var title: String {
         switch self {
+        case .y2025:
+            return "2025"
+        case .february25:
+            return "February 2025"
         case .y2024:
             return "2024"
+        case .december24:
+            return "December 2024"
+        case .november24:
+            return "November 2024"
+        case .september24:
+            return "September 2024"
         case .may24:
             return "May 2024"
         case .april24:
@@ -51,8 +66,18 @@ enum SideMenuOptionsModel: Int, CaseIterable {
     
     var systemImageName: String {
         switch self {
+        case .february25:
+            return "doc"
+        case .y2025:
+            return "calendar"
         case .y2024:
             return "calendar"
+        case .december24:
+            return "doc"
+        case .november24:
+            return "doc"
+        case .september24:
+            return "doc"
         case .may24:
             return "doc"
         case .april24:
